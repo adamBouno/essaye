@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlobeTrotter Voyages</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1>GlobeTrotter</h1>
+          <p>Agence de voyages & expériences sur mesure</p>
+        </div>
+        <nav>
+          <a href="#destinations">Destinations</a>
+          <a href="#services">Services</a>
+          <a href="#temoignages">Témoignages</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div>
+            <span class="eyebrow">Voyagez autrement</span>
+            <h2>Explorez le monde avec des circuits personnalisés</h2>
+            <p>Nous créons des aventures sur mesure, des vacances de rêve et des escapades inoubliables.</p>
+            <a href="#contact" class="btn btn-primary">Demandez un devis</a>
+          </div>
+          <div class="hero-image"></div>
+        </div>
+      </section>
+
+      <section id="destinations" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Destinations phares</span>
+            <h3>Des expériences uniques partout dans le monde</h3>
+          </div>
+          <div class="cards-grid">
+            <article class="card">
+              <h4>Îles Tropicales</h4>
+              <p>Plages paradisiaques, plongée et détente sous les palmiers.</p>
+            </article>
+            <article class="card">
+              <h4>Capitales européennes</h4>
+              <p>Cultures riches, musées et gastronomie pour un city trip parfait.</p>
+            </article>
+            <article class="card">
+              <h4>Safari & nature</h4>
+              <p>Aventures authentiques dans les réserves et les parcs naturels.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <span>Nos services</span>
+            <h3>Tout pour préparer votre voyage en toute sérénité</h3>
+          </div>
+          <div class="services-grid">
+            <div class="service-card">
+              <h4>Voyages sur mesure</h4>
+              <p>Itinéraires personnalisés en fonction de vos envies et de votre budget.</p>
+            </div>
+            <div class="service-card">
+              <h4>Billetterie & hébergement</h4>
+              <p>Réservation de vols, hôtels, agences locales et transferts inclus.</p>
+            </div>
+            <div class="service-card">
+              <h4>Assistance 24/7</h4>
+              <p>Accompagnement avant, pendant et après votre séjour.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="temoignages" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Témoignages</span>
+            <h3>Ce que disent nos voyageurs</h3>
+          </div>
+          <div class="testimonials-grid">
+            <blockquote class="testimonial">
+              <p>"Voyage exceptionnel, tout était parfaitement organisé. Merci GlobeTrotter !"</p>
+              <footer>— Maya, Paris</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              <p>"Une équipe à l'écoute et des conseils précieux pour un voyage sur mesure."</p>
+              <footer>— Romain, Lyon</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="container contact-section">
+          <div>
+            <span>Prêt à partir ?</span>
+            <h3>Contactez-nous pour votre prochain voyage</h3>
+            <p>Nous vous répondons rapidement pour construire votre projet de voyage.</p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label>
+              Nom complet
+              <input type="text" name="name" placeholder="Votre nom" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="votre@email.com" required />
+            </label>
+            <label>
+              Destination souhaitée
+              <input type="text" name="destination" placeholder="Ex : Bali, Tokyo" />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Dites-nous ce que vous recherchez..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-secondary">Envoyer ma demande</button>
+            <p class="form-message" id="formMessage"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 GlobeTrotter Voyages. Votre agence de voyage de confiance.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
